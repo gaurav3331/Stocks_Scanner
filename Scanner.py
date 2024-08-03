@@ -66,7 +66,7 @@ def plot_monthly_chart(stock_ticker):
                       xaxis_rangeslider_visible=False)
     st.plotly_chart(fig)
 
-# Streamlit UI
+
 st.title("Stocks breaking All Time High")
 
 uploaded_file = st.file_uploader("Choose a CSV file with stock tickers", type="csv")
